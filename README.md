@@ -141,6 +141,10 @@ After KB quality fixes: **1,371 chunks** (chapters + KB-MAP + validated code). L
 
 GitHub: [agentic_architectures_tutor](https://github.com/rdebiasec/agentic_architectures_tutor)
 
-## Next phase (not yet)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/rdebiasec/agentic_architectures_tutor)
 
-Git init, GitHub push, and Render deploy — only after local sign-off. See `render.yaml` for deploy blueprint.
+Full deploy guide: [DEPLOY.md](DEPLOY.md)
+
+## Next phase
+
+Render deploy is ready — see [DEPLOY.md](DEPLOY.md). After first Blueprint deploy, verify with `./scripts/smoke_produccion.sh`.
