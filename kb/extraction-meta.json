@@ -1,0 +1,183 @@
+{
+  "source_pdf": "source/Agentic Architectural Patterns for Building Multi-Agent Systems.pdf",
+  "chapters": [
+    {
+      "number": 1,
+      "slug": "genai-in-the-enterprise",
+      "title": "GenAI in the Enterprise: Landscape, Maturity, and Agent Focus",
+      "pages": [
+        40,
+        61
+      ],
+      "figures": 4,
+      "code_files": []
+    },
+    {
+      "number": 2,
+      "slug": "agent-ready-llms",
+      "title": "Agent-Ready LLMs: Selection, Deployment, and Adaptation",
+      "pages": [
+        62,
+        93
+      ],
+      "figures": 2,
+      "code_files": []
+    },
+    {
+      "number": 3,
+      "slug": "llm-adaptation-rag-to-finetuning",
+      "title": "The Spectrum of LLM Adaptation for Agents: RAG to Fine-tuning",
+      "pages": [
+        94,
+        131
+      ],
+      "figures": 6,
+      "code_files": []
+    },
+    {
+      "number": 4,
+      "slug": "agentic-ai-architecture",
+      "title": "Agentic AI Architecture: Components and Interactions",
+      "pages": [
+        132,
+        155
+      ],
+      "figures": 5,
+      "code_files": []
+    },
+    {
+      "number": 5,
+      "slug": "multi-agent-coordination-patterns",
+      "title": "Multi-Agent Coordination Patterns",
+      "pages": [
+        156,
+        219
+      ],
+      "figures": 14,
+      "code_files": []
+    },
+    {
+      "number": 6,
+      "slug": "explainability-compliance-patterns",
+      "title": "Explainability and Compliance Agentic Patterns",
+      "pages": [
+        220,
+        241
+      ],
+      "figures": 5,
+      "code_files": []
+    },
+    {
+      "number": 7,
+      "slug": "robustness-fault-tolerance-patterns",
+      "title": "Robustness and Fault Tolerance Patterns",
+      "pages": [
+        242,
+        317
+      ],
+      "figures": 17,
+      "code_files": [
+        "ch07-snippet-01.py"
+      ]
+    },
+    {
+      "number": 8,
+      "slug": "human-agent-interaction-patterns",
+      "title": "Human-Agent Interaction Patterns",
+      "pages": [
+        318,
+        345
+      ],
+      "figures": 6,
+      "code_files": []
+    },
+    {
+      "number": 9,
+      "slug": "agent-level-patterns",
+      "title": "Agent-Level Patterns",
+      "pages": [
+        346,
+        375
+      ],
+      "figures": 8,
+      "code_files": []
+    },
+    {
+      "number": 10,
+      "slug": "system-level-production-patterns",
+      "title": "System-Level Patterns for Production Readiness",
+      "pages": [
+        376,
+        403
+      ],
+      "figures": 6,
+      "code_files": []
+    },
+    {
+      "number": 11,
+      "slug": "advanced-adaptation",
+      "title": "Advanced Adaptation: Building Agents That Learn",
+      "pages": [
+        404,
+        443
+      ],
+      "figures": 8,
+      "code_files": []
+    },
+    {
+      "number": 12,
+      "slug": "practical-roadmap-maturity",
+      "title": "A Practical Roadmap: Implementing Agentic Patterns by Maturity Level",
+      "pages": [
+        444,
+        459
+      ],
+      "figures": 3,
+      "code_files": []
+    },
+    {
+      "number": 13,
+      "slug": "use-case-single-agent-loan",
+      "title": "Use Case: A Single Agent for Loan Processing",
+      "pages": [
+        460,
+        485
+      ],
+      "figures": 1,
+      "code_files": []
+    },
+    {
+      "number": 14,
+      "slug": "use-case-multi-agent-loan",
+      "title": "Use Case: A Multi-Agent System for Loan Processing",
+      "pages": [
+        486,
+        507
+      ],
+      "figures": 2,
+      "code_files": []
+    },
+    {
+      "number": 15,
+      "slug": "agent-frameworks-comparison",
+      "title": "Agent Frameworks \u2013 Use Case: A Multi-Agent System for Loan Processing with CrewAI and LangGraph",
+      "pages": [
+        508,
+        545
+      ],
+      "figures": 0,
+      "code_files": []
+    },
+    {
+      "number": 16,
+      "slug": "conclusion",
+      "title": "Conclusion: Charting Your Agentic AI Journey",
+      "pages": [
+        546,
+        573
+      ],
+      "figures": 0,
+      "code_files": []
+    }
+  ]
+}

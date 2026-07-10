@@ -1,0 +1,28 @@
+---
+description: Use local RAG KB when answering questions about the agentic architectures book
+alwaysApply: true
+---
+
+# Agentic Architectures Knowledge Base
+
+This project has a local RAG index built from `kb/` (Packt book on multi-agent systems).
+
+## When to use
+
+When the user asks about agentic patterns, chapters, maturity models, RAG, LLMOps, ADK, CrewAI, LangGraph, or book content — search the KB first.
+
+## How to query (terminal)
+
+```bash
+python3 scripts/rag_query.py "your question here"
+python3 scripts/rag_query.py "question" --chapter 5
+python3 scripts/rag_query.py "question" --search-only
+```
+
+## Index location
+
+- Vector store: `.rag/chroma/`
+- Rebuild after KB changes: `python3 scripts/build_rag_index.py`
+- Requires `OPENAI_API_KEY` in `.env`
+
+Ground answers in retrieved sources. Cite chapter/section when possible.

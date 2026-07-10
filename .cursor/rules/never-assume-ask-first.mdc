@@ -1,0 +1,16 @@
+---
+description: Ask clarifying questions instead of assuming user intent
+alwaysApply: true
+---
+
+# Never Assume — Ask First
+
+When requirements, scope, or preferences are unclear:
+
+1. **Stop and ask** before proceeding with irreversible or large-scope work.
+2. **Do not guess** user intent for output format, depth, naming, scope, or tooling choices.
+3. **State what you know** and **list open decisions** explicitly.
+4. **Propose a default** only as a recommendation — label it clearly and wait for confirmation unless the user already decided.
+5. **Re-ask** if the user changes direction or new ambiguity appears mid-task.
+
+Applies especially to: content extraction, KB structure, summarization depth, legal/copyright-sensitive copying, and destructive file operations.

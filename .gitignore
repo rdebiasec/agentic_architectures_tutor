@@ -1,0 +1,11 @@
+.env
+.env.local
+.env.cloud-prod
+.env.cloud-dev
+.rag/
+__pycache__/
+*.pyc
+.venv/
+venv/
+source/*.pdf
+.DS_Store

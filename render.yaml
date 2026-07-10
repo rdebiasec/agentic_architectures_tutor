@@ -1,0 +1,38 @@
+# Render Blueprint — Agentic Architectures RAG API
+# Docs: https://render.com/docs/blueprint-spec
+#
+# Before first deploy, create a Chroma Cloud database:
+#   chroma login
+#   chroma db create agenticArchitecturesProd
+#   chroma db connect agenticArchitecturesProd --env-vars
+# Then paste OPENAI_API_KEY, CHROMA_API_KEY, CHROMA_TENANT into Render Dashboard.
+
+services:
+  - type: web
+    name: agentic-architectures-rag
+    runtime: python
+    plan: starter
+    region: oregon
+    buildCommand: pip install -r requirements.txt && python3 scripts/build_rag_index.py
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.9"
+      - key: CHROMA_MODE
+        value: cloud
+      - key: CHROMA_COLLECTION
+        value: agentic_architectures
+      - key: CHROMA_DATABASE
+        value: agenticArchitecturesProd
+      - key: OPENAI_EMBEDDING_MODEL
+        value: text-embedding-3-small
+      - key: OPENAI_CHAT_MODEL
+        value: gpt-4o-mini
+      # Secrets — set in Render Dashboard (sync: false = not in Git)
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: CHROMA_API_KEY
+        sync: false
+      - key: CHROMA_TENANT
+        sync: false
